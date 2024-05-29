@@ -1,0 +1,65 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+
+}
+
+button{
+    display: inline-block;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    padding: 18px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    position: middle;
+
+  transform: translatey(300%)
+}
+button:hover{
+  background-color: hsl(0, 0%, 45%);
+}
+#button_2{
+  display: inline-block;
+  background: rgb(244, 32, 32);
+  color: white;
+  padding: 18px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  position: middle;
+margin: auto;
+transform: translatey(-10%)
+}
+#button_2:hover{
+  background-color: rgb(155, 2, 2);
+}
+#apple-snake{
+  width: 25%;
+  border: 5px solid rgb(36, 27, 27);
+  border-radius: 10px;
+}
+
+#snake_game{
+  width: 10%;
+  border: 5px solid rgb(215, 228, 138);
+  border-radius: 10px;
+}
+
+#wins{
+  width: 20%;
+  border: 5px solid rgb(239, 61, 30);
+  border-radius: 10px;
+}
+
+#long_snake{
+  width: 20%;
+  border: 5px solid rgb(30, 194, 239);
+  border-radius: 10px;
+}
