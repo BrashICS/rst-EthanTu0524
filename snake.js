@@ -73,7 +73,7 @@ context.fillStyle = "white";
 
 if (snakeX < 0 || snakeX > cols * blockSize || snakeY < 0 || snakeY > row * blockSize) {
   game_over = true;
-  alert("Game Over! Your score: " + score);
+  alert("Game over! Congratulations! Your score is : " + score);
   location.reload();
 }
 
